@@ -3,10 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		33AF3FD6256F905400A94DAE /* UIView+Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33AF3FD5256F905400A94DAE /* UIView+Util.swift */; };
+		33AF3FD9256F907100A94DAE /* UIColor+Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33AF3FD8256F907100A94DAE /* UIColor+Util.swift */; };
 		33DE4308256F87D8006CE12E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33DE4307256F87D8006CE12E /* AppDelegate.swift */; };
 		33DE430A256F87D8006CE12E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33DE4309256F87D8006CE12E /* SceneDelegate.swift */; };
 		33DE430C256F87D8006CE12E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33DE430B256F87D8006CE12E /* ViewController.swift */; };
@@ -19,6 +21,8 @@
 /* Begin PBXFileReference section */
 		03E42B91D31B0CD9CD8535C6 /* Pods_Day2Homework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Day2Homework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BB0929429019121004BBE46 /* Pods-Day2Homework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Day2Homework.debug.xcconfig"; path = "Target Support Files/Pods-Day2Homework/Pods-Day2Homework.debug.xcconfig"; sourceTree = "<group>"; };
+		33AF3FD5256F905400A94DAE /* UIView+Util.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Util.swift"; sourceTree = "<group>"; };
+		33AF3FD8256F907100A94DAE /* UIColor+Util.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Util.swift"; sourceTree = "<group>"; };
 		33DE4304256F87D8006CE12E /* Day2Homework.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Day2Homework.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		33DE4307256F87D8006CE12E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		33DE4309256F87D8006CE12E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -48,7 +52,6 @@
 				1BB0929429019121004BBE46 /* Pods-Day2Homework.debug.xcconfig */,
 				A41AF2242BCDE346EA83B09C /* Pods-Day2Homework.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -80,6 +83,8 @@
 				33DE4310256F87D9006CE12E /* Assets.xcassets */,
 				33DE4312256F87D9006CE12E /* LaunchScreen.storyboard */,
 				33DE4315256F87D9006CE12E /* Info.plist */,
+				33AF3FD5256F905400A94DAE /* UIView+Util.swift */,
+				33AF3FD8256F907100A94DAE /* UIColor+Util.swift */,
 			);
 			path = Day2Homework;
 			sourceTree = "<group>";
@@ -207,7 +212,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				33DE430C256F87D8006CE12E /* ViewController.swift in Sources */,
+				33AF3FD9256F907100A94DAE /* UIColor+Util.swift in Sources */,
 				33DE4308256F87D8006CE12E /* AppDelegate.swift in Sources */,
+				33AF3FD6256F905400A94DAE /* UIView+Util.swift in Sources */,
 				33DE430A256F87D8006CE12E /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
