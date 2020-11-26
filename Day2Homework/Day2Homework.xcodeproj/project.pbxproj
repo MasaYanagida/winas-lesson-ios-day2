@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		33AF3FD6256F905400A94DAE /* UIView+Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33AF3FD5256F905400A94DAE /* UIView+Util.swift */; };
 		33AF3FD9256F907100A94DAE /* UIColor+Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33AF3FD8256F907100A94DAE /* UIColor+Util.swift */; };
+		33D2D278256FE3BE00016136 /* Content.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33D2D277256FE3BE00016136 /* Content.swift */; };
 		33DE4308256F87D8006CE12E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33DE4307256F87D8006CE12E /* AppDelegate.swift */; };
 		33DE430A256F87D8006CE12E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33DE4309256F87D8006CE12E /* SceneDelegate.swift */; };
 		33DE430C256F87D8006CE12E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33DE430B256F87D8006CE12E /* ViewController.swift */; };
@@ -23,6 +24,7 @@
 		1BB0929429019121004BBE46 /* Pods-Day2Homework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Day2Homework.debug.xcconfig"; path = "Target Support Files/Pods-Day2Homework/Pods-Day2Homework.debug.xcconfig"; sourceTree = "<group>"; };
 		33AF3FD5256F905400A94DAE /* UIView+Util.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Util.swift"; sourceTree = "<group>"; };
 		33AF3FD8256F907100A94DAE /* UIColor+Util.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Util.swift"; sourceTree = "<group>"; };
+		33D2D277256FE3BE00016136 /* Content.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Content.swift; sourceTree = "<group>"; };
 		33DE4304256F87D8006CE12E /* Day2Homework.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Day2Homework.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		33DE4307256F87D8006CE12E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		33DE4309256F87D8006CE12E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -55,6 +57,14 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		33D2D276256FE3AD00016136 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				33D2D277256FE3BE00016136 /* Content.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		33DE42FB256F87D8006CE12E = {
 			isa = PBXGroup;
 			children = (
@@ -76,6 +86,7 @@
 		33DE4306256F87D8006CE12E /* Day2Homework */ = {
 			isa = PBXGroup;
 			children = (
+				33D2D276256FE3AD00016136 /* Models */,
 				33DE4307256F87D8006CE12E /* AppDelegate.swift */,
 				33DE4309256F87D8006CE12E /* SceneDelegate.swift */,
 				33DE430B256F87D8006CE12E /* ViewController.swift */,
@@ -216,6 +227,7 @@
 				33DE4308256F87D8006CE12E /* AppDelegate.swift in Sources */,
 				33AF3FD6256F905400A94DAE /* UIView+Util.swift in Sources */,
 				33DE430A256F87D8006CE12E /* SceneDelegate.swift in Sources */,
+				33D2D278256FE3BE00016136 /* Content.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
