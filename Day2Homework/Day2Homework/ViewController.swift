@@ -15,16 +15,18 @@ class ViewController: UIViewController {
     @IBOutlet weak var articleLabel: UILabel!
     @IBOutlet weak var favoriteButton: UIButton!
     @IBOutlet weak var articleImage: UIImageView!
+    @IBOutlet weak var stackView: UIStackView!
     
     var isExpand: Bool = false
+    var alertController: UIAlertController!
     
     private lazy var resizeButton: UIButton = {
         let button = UIButton()
-        button.cornerRadius = 32
+        button.cornerRadius = 5
         button.borderWidth = 1
         button.borderColor = .red
         button.backgroundColor = .white
-        button.setTitleColor(.blue, for: .normal)
+        button.setTitleColor(.red, for: .normal)
         button.setTitle("画像拡大/縮小", for: .normal)
         button.addTarget(self, action: #selector(buttonTouchUpInside2(sender:)), for: .touchUpInside)
         view.addSubview(button)
@@ -33,20 +35,25 @@ class ViewController: UIViewController {
     
     @IBOutlet private dynamic weak var heightConstraint: NSLayoutConstraint!
    
-    private lazy var button: UIButton = {
-        let button = UIButton()
-        button.cornerRadius = 12
-        button.borderWidth = 1
-        button.borderColor = .red
-        button.backgroundColor = .white
-        button.setTitleColor(UIColor.hexColor(0xff0000), for: .normal)
-        button.setTitle("画像拡大/縮小", for: .normal)
-        button.addTarget(self, action: #selector(buttonTouchUpInside2(sender: )), for: .touchUpInside)
-        view.addSubview(button)
-        return button
-    }()
-    
-    @IBAction func favoriteButton(_ sender: Any) {
+    @IBAction func tapFavoriteButton(_ sender: UIButton) {
+        alert(title: "お気に入り",
+              message: "お気に入りに登録しました"
+        )
+    }
+
+    func alert(title:String, message:String){
+        alertController = UIAlertController(
+            title : title,
+            message: message,
+            preferredStyle: .alert
+        )
+        alertController.addAction(UIAlertAction(
+            title: "OK",
+            style: .default,
+            handler: nil
+        ))
+        present(alertController, animated: true)
+        
     }
     
     @IBAction private func resizeButton(_ sender: UIButton){
@@ -69,12 +76,11 @@ class ViewController: UIViewController {
             favoriteButton.isHidden = true
         }
         
-        button.snp.makeConstraints { make in
+        resizeButton.snp.makeConstraints { make in
             make.bottom.equalTo(view).offset(-20)
-            make.left.equalTo(view).offset(0)
-            make.right.equalTo(view).offset(0)
+            make.left.equalTo(view).offset(15)
+            make.right.equalTo(view).offset(-15)
             make.height.equalTo(64)
-            
         }
 
     }

@@ -82,6 +82,9 @@
                                                         <integer key="value" value="10"/>
                                                     </userDefinedRuntimeAttribute>
                                                 </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <action selector="tapFavoriteButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="yru-KD-mj2"/>
+                                                </connections>
                                             </button>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sample" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qug-rv-eV5">
                                                 <rect key="frame" x="0.0" y="50.5" width="384" height="163"/>
@@ -135,6 +138,7 @@
                         <outlet property="favoriteButton" destination="Cnx-Ml-cdJ" id="Eg9-tc-k5x"/>
                         <outlet property="heightConstraint" destination="Q0n-v5-KuH" id="ekT-jJ-fPZ"/>
                         <outlet property="nameLabel" destination="7eP-yd-31G" id="LcP-6K-Ajd"/>
+                        <outlet property="stackView" destination="cim-Te-kfc" id="J7N-Fn-bhx"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
