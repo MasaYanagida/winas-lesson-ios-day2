@@ -138,7 +138,6 @@
                         <outlet property="favoriteButton" destination="Cnx-Ml-cdJ" id="Eg9-tc-k5x"/>
                         <outlet property="heightConstraint" destination="Q0n-v5-KuH" id="ekT-jJ-fPZ"/>
                         <outlet property="nameLabel" destination="7eP-yd-31G" id="LcP-6K-Ajd"/>
-                        <outlet property="stackView" destination="cim-Te-kfc" id="J7N-Fn-bhx"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

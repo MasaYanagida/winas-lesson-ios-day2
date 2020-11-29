@@ -15,7 +15,6 @@ class ViewController: UIViewController {
     @IBOutlet weak var articleLabel: UILabel!
     @IBOutlet weak var favoriteButton: UIButton!
     @IBOutlet weak var articleImage: UIImageView!
-    @IBOutlet weak var stackView: UIStackView!
     
     var isExpand: Bool = false
     var alertController: UIAlertController!
