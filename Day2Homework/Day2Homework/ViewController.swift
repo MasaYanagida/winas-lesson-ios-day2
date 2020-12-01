@@ -80,7 +80,6 @@ class ViewController: UIViewController {
     
     private func toggle() {
         imageHeightConstraint.constant = isExpand ? 128 : 256
-//        uiViewHeightConstraint.constant = 300
         UIView.animate(
             withDuration: 0.6,
             delay: 0,
