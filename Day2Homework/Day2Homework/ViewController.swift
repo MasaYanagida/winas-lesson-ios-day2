@@ -12,7 +12,7 @@ class ViewController: UIViewController {
 
     // MARK: - IBOutlet
     
-    @IBOutlet weak var mainStackView: UIStackView!
+    @IBOutlet fileprivate dynamic weak var mainStackView: UIStackView!
     @IBOutlet fileprivate dynamic weak var nameLabel: UILabel!
     @IBOutlet fileprivate dynamic weak var addressLabel: UILabel!
     @IBOutlet fileprivate dynamic weak var introductionLabel: UILabel!
