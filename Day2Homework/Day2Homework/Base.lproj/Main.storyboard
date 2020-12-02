@@ -92,8 +92,10 @@
                         <outlet property="addressLabel" destination="Wwo-zV-maf" id="mqn-2j-3f4"/>
                         <outlet property="articleImageView" destination="KHd-4e-rCD" id="6BN-Nm-d9M"/>
                         <outlet property="favoriteButton" destination="omD-FB-ZcM" id="gFP-Bf-oeQ"/>
+                        <outlet property="heightConstraint" destination="uOf-co-e4E" id="7f2-wc-aXB"/>
                         <outlet property="iconImageView" destination="reo-v6-B0H" id="tm3-Q0-vYh"/>
                         <outlet property="introductionLabel" destination="MUc-XP-DSu" id="Wnq-9h-ngE"/>
+                        <outlet property="mainStackView" destination="dQg-xw-DVX" id="fzu-NA-NsB"/>
                         <outlet property="nameLabel" destination="qZo-Cp-50H" id="Umb-r8-WQ8"/>
                     </connections>
                 </viewController>
